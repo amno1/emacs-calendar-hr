@@ -1,0 +1,9 @@
+A localisation of Emacs calendar to Croatian language.
+
+To use, please place calendar-hr.el somewhere in your Emacs load-path, and
+require calendar-hr somewhere in yoru init file.
+
+I use this only occasionally myself, so there might be some bugs regarding names
+and dates, if you find any please let me know.
+
+
