@@ -6,4 +6,6 @@ require calendar-hr somewhere in yoru init file.
 I use this only occasionally myself, so there might be some bugs regarding names
 and dates, if you find any please let me know.
 
+For the license see the included LICENSE file (GPL 3.0).
+
 
