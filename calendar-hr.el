@@ -112,9 +112,9 @@
   "Mjesečeve mjene na hrvatskom."
   (setq ad-return-value
 	(let ((phase (ad-get-arg 0)))
-	  (cond ((= 0 phase) "Mladi mjesec")
+	  (cond ((= 0 phase) "Mlađak")
 		((= 1 phase) "Prva četvrt")
-		((= 2 phase) "Puni mjesec")
+		((= 2 phase) "Uštap")
 		((= 3 phase) "Posljednja četvrt")))))
 
 ;; Sunrise and sunset
@@ -159,7 +159,7 @@
 
 (setq holiday-general-holidays
       '((holiday-fixed 1 1   "Nova godina")
-        (holiday-fixed 1 6   "Bogojavnljenje ili Sveta tri kralja")
+        (holiday-fixed 1 6   "Bogojavljenje")
         (holiday-fixed 5 1   "Praznik rada")
         (holiday-fixed 5 30  "Dan državnosti")
         (holiday-fixed 6 22  "Dan antifašističke borbe")
@@ -203,14 +203,11 @@
 
         (unless hr-hide-some-holidays
           (holiday-fixed 4 1 "Prvi april"))
-        (holiday-float 5 0 -1 "Dan majki")
+        (holiday-float 5 0 -1 "Majčin dan")
         (holiday-fixed 10 24 "Dan Ujedinjenih Nacija")
         (holiday-float 11 0 2 "Dan očeva")
         (holiday-fixed 11 10 "Martinje")
-        (holiday-float 12 0 -4 "Prvi advent" 24)
-        (holiday-float 12 0 -3 "Drugi advent" 24)
-        (holiday-float 12 0 -2 "Treći advent" 24)
-        (holiday-float 12 0 -1 "Četvrti advent" 24)
+        (holiday-float 12 0 -4 "Došašće" 24)
         (holiday-fixed 12 10 "Nobelov dan")
         (holiday-fixed 12 13 "Dan Svete Lucije")
         (holiday-fixed 12 24 "Božić")
