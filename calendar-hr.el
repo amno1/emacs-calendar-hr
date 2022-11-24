@@ -83,9 +83,9 @@
       calendar-day-name-formatted-array
       ["nedjelje" "ponedjeljka" "utorka" "srijede" "četvrtka" "petka" "subote"]
       calendar-day-abbrev-array
-      ["ned" "pon" "uto" "srj" "čet" "pet" "sub"]
+      ["ned" "pon" "uto" "sri" "čet" "pet" "sub"]
       calendar-day-header-array
-      ["nd" "pn" "ut" "sr" "čt" "pt" "sb"])
+      ["ne" "po" "ut" "sr" "če" "pe" "su"])
 
 ;; Month names
 (setq calendar-month-name-array
